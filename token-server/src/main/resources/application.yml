@@ -1,0 +1,50 @@
+server:
+  port: 10001
+
+spring:
+  application:
+    name: account-server
+
+  main:
+    allow-bean-definition-overriding: true
+
+  output:
+    ansi:
+      enabled: always
+
+  redis:
+    host: localhost
+    port: 6379
+    password: admin123!
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: admin123!
+    hikari:
+      idle-timeout: 10000
+      maximum-pool-size: 10
+      minimum-idle: 5
+      pool-name: BaseHikariPool
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+
+jwt:
+  header: Authorization
+  #HS512 알고리즘을 사용할 것이기 때문에 512bit, 즉 64byte 이상의 secret key를 사용해야 한다.
+  #echo 'Your work is going to fill a large part of your life,and the only way to be truly satisfied is to do what you believe is great work.'|base64
+  #echo 일이 당신 인생의 많은 부분을 채울 텐데, 진정한 만족을 누리기 위해서는 자신이 위대하다고 믿는 일을 해야 합니다.
+  #base64 encode/decode url: https://www.base64encode.org/
+  secret: WW91ciB3b3JrIGlzIGdvaW5nIHRvIGZpbGwgYSBsYXJnZSBwYXJ0IG9mIHlvdXIgbGlmZSxhbmQgdGhlIG9ubHkgd2F5IHRvIGJlIHRydWx5IHNhdGlzZmllZCBpcyB0byBkbyB3aGF0IHlvdSBiZWxpZXZlIGlzIGdyZWF0IHdvcmsu
+  user-cookie-name: userCookie
+  access-token-cookie-name: accessTokenCookie
+  refresh-token-cookie-name: refreshTokenCookie
+
+logging:
+  level:
+    com.roopy: DEBUG
