@@ -19,5 +19,12 @@ react-netflix-clone-basic-auth 프로젝트에서 사용하는 API Server
 
 JWT Token API Server
 
+![NETFLIX Clone 프로젝트 흐름도](https://user-images.githubusercontent.com/39702082/209175595-f845c264-48d4-468e-a7fb-06dcbec9151f.PNG)
+
 ## 화면
 
+![화면1](https://user-images.githubusercontent.com/39702082/209175639-8c0cd295-0438-4fd0-a898-df9af6bda497.PNG)
+
+![화면2](https://user-images.githubusercontent.com/39702082/209175658-4e332a1e-0c10-4fc0-9c9a-738e15095901.PNG)
+
+![화면3](https://user-images.githubusercontent.com/39702082/209175673-eacb6961-ce64-40c3-859d-1bd95041eb76.PNG)
