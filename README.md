@@ -1,7 +1,21 @@
 # react-netflix-clone-project
 
-UI는 [Build NETFLIX With React JS - Tailwind CSS - FIREBASE](https://www.youtube.com/watch?v=ATz8wg6sg30) 강좌를 보고 작성 되었습니다.\
-Backend는 FIREBASE를 사용하지 않고 자체적으로 만들었습니다.
+프로젝트의 목적은 React,Tailwind CSS 를 사용하여서 UI 구현에 대한 이해를 높이며\
+JWT Token을 이용하여서 사용자 인증 처리에 대한 기본적인 구현 방법에 대한 이해 높인다.
+   
+   
+   
+# 구현 기술
+### **FRONT-END**
+[Build NETFLIX With React JS - Tailwind CSS - FIREBASE](https://www.youtube.com/watch?v=ATz8wg6sg30) 강좌를 보고 작성 되었습니다.\
+
+### **BACK-END**
+Spring Web, Security, JPA 사용
+
+### **DATA BASE**
+PostgreSQL, Redis
+
+
 
 ## react-netflix-clone-basic-auth
 
