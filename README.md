@@ -19,7 +19,7 @@ PostgreSQL, Redis
 
 # Installation
 ### *Step1: react-netflix-clone-ui*
-React+Tailwindcss 프로젝트 생성\
+React+Tailwindcss 프로젝트 생성
 
 ### *Step2: app-server*
 react-netflix-clone-project 에 사용하는 API 서버\
