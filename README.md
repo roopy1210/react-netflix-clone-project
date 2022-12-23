@@ -34,7 +34,7 @@ react-netflix-clone-project 에 사용하는 API 서버\
 JWT 토큰 관리\
 [소스다운로드]: https://github.com/roopy1210/react-netflix-clone-project/tree/main/token-server
 
-### *프로젝트 흐름도*
+### *API Flow*
 ![NETFLIX Clone 프로젝트 흐름도](https://user-images.githubusercontent.com/39702082/209265868-f9efe61c-9f40-40ea-b1ba-3257eb314fd2.PNG)
 
 # 관련화면
