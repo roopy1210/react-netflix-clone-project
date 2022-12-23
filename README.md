@@ -9,7 +9,8 @@ JWT Token을 이용하여서 사용자 인증 처리에 대한 기본적인 구�
 
 # 구현 기술
 ### **FRONT-END**
-[Build NETFLIX With React JS - Tailwind CSS - FIREBASE](https://www.youtube.com/watch?v=ATz8wg6sg30) 강좌를 보고 작성 되었습니다.
+React+Tailwindcss\
+>[Build NETFLIX With React JS - Tailwind CSS - FIREBASE](https://www.youtube.com/watch?v=ATz8wg6sg30) 강좌를 보고 작성 되었습니다.
 
 ### **BACK-END**
 Spring Web, Security, JPA 사용
