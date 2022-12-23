@@ -18,18 +18,20 @@ Spring Web, Security, JPA 사용
 PostgreSQL, Redis
 
 # Installation
-## *Step1: react-netflix-clone-ui*
+### *Step1: react-netflix-clone-ui*
 React+Tailwindcss 프로젝트 생성\
 
-## *Step2: app-server*
+### *Step2: app-server*
 react-netflix-clone-project 에 사용하는 API 서버\
 [소스다운로드]: https://github.com/roopy1210/react-netflix-clone-project/tree/main/app-server
 
-## *Step3: account-server*
-사용자 관리를 위한 API Server
+### *Step3: account-server*
+사용자 관리를 위한 API Server\
+[소스다운로드]: https://github.com/roopy1210/react-netflix-clone-project/tree/main/account-server
 
-## *Step4: token-server*
-JWT 토큰 관리
+### *Step4: token-server*
+JWT 토큰 관리\
+[소스다운로드]: https://github.com/roopy1210/react-netflix-clone-project/tree/main/token-server
 
 ** 프로젝트 흐름도
 ![NETFLIX Clone 프로젝트 흐름도](https://user-images.githubusercontent.com/39702082/209175595-f845c264-48d4-468e-a7fb-06dcbec9151f.PNG)
