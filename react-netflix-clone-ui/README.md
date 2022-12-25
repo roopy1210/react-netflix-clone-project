@@ -6,7 +6,12 @@
 
 # 주요기능
 * 로그인 프로세스
+![로그인](https://user-images.githubusercontent.com/39702082/209472350-410cd1b8-f95b-4981-b138-a1edd3f88fcb.PNG)
+
+
+
 * 로그아웃프로세스
+![로그아웃](https://user-images.githubusercontent.com/39702082/209472363-5cf07804-6eef-4336-875d-c38611ac3cdc.PNG)
 
 # 주요화면
 
