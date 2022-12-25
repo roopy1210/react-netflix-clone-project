@@ -14,7 +14,7 @@ UI에 필요한 API 서비스 제공
 
 # API 명세서
 
-## <span style="color:yellow">**REQUEST**</span>
+## @@ **REQUEST** @@
 
 ### **POST**
 #### URL : /likes
