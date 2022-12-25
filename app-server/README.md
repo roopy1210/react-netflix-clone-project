@@ -11,8 +11,11 @@ UI에 필요한 API 서비스 제공
 * MyMovie\
   좋아하는 영화 선택시 선택 영화 저장,삭제,조회 기능 제공
 
-  
+
 # API 명세서
 
-  
+## <span style="color:yellow">**REQUEST**</span>
+
+### **POST**
+#### URL : /likes
 
